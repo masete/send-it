@@ -115,10 +115,6 @@ footer{
     margin-left: 100px;
 
 }
-.login-sec form textarea{
-    width: 64%;
-    height: 150px;
-}
 .login-sec form button{
     border: none;
     margin:0px 0px 10px 0px;
