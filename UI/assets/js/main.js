@@ -19,12 +19,12 @@ function login(){
 
         if(username == "admin" && password =="12345"){
 
-            window.location.href = "admin-change-parcel.html";
+            window.location.href = "UI/admin-change-parcel.html";
     
            
         }else if(username == "user" && password == "12345"){
     
-            window.location.href = "create-parcel.html"; 
+            window.location.href = "UI/create-parcel.html"; 
     
         }
     
