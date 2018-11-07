@@ -8,11 +8,11 @@ function login(){
 
     }else if(username == ""){
 
-        document.getElementById("msg").innerHTML = "Username Empty !";
+        document.getElementById("msg").innerHTML = "Username shoould not be left empty";
     
     }else if(password == ""){
 
-        document.getElementById("msg").innerHTML = "Password Empty !";
+        document.getElementById("msg").innerHTML = "Password should not be left empty";
 
     }else{
 
