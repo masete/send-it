@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+img.index-img{
+    position: fixed;
+    width: 100%;
+    left:0px;
+    top:0px;
+    height: 350px;
+    z-index: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    left:0px;
+    top:0px;
+    padding: 10px 0px;
+    z-index: 2;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.7);
+}
+header p{
+    float: left;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 45px; 
+    border-radius: 50%;
+    position: relative;
+}
+header p.logo label{
+    position: absolute;
+    font-size: 25px;
+    z-index: 3;
+    top: 6px;
+    left: 13px;
+}
+
+header a{
+    float: right;
+    margin: 8px 45px 0px 0px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header ul{
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+header ul li{
+    display: inline;
+}
+footer{
+    background-color:rgb(36, 35, 34);
+    position:absolute;
+    bottom: 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+ 
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.main-content{
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 92%;
+    top: 250px;
+    margin-left: 3.5%;
+    padding: 15px;
+    overflow: auto;
+}
+.main-content .signup-sec{
+    width: 49%;
+    float: left;
+}
+.main-content .login-sec{
+    width: 49%;
+    
+    margin:0 auto;
+}
+.login-sec form, .login-sec h3{
+    margin-left: 100px;
+}
+.login-sec form label{
+    display: block;
+    margin-bottom: 10px;
+}
+.login-sec form input[type = "text"], .login-sec form input[type = "password"]{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px;
+    width: 50%;
+    
+}
+.signup-sec form input[type = "text"], .signup-sec form input[type = "password"]{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px;
+    width: 80%;
+    
+}
+.login-sec form p{
+    margin:10px 0px 10px 0px;
+}
+.signup-sec form {
+    margin-left: 100px;
+
+}
+.login-sec form button{
+    border: none;
+    margin:0px 0px 10px 0px;
+    padding: 10px 15px;
+}

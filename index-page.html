@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="UI/assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <img src="UI/assets/images/parcel2.jpeg" class="index-img">
+    <header>
+        <p class="logo"><img src="UI/assets/images/logo.png"/></p>
+        <a href="index-page.html">Welcome</a>
+    </header>
+    <div class="main-content">
+          <div class="signup-sec">
+            <h3>Sign Up</h3>
+            <p>Please fill in this form to create an account.</p>
+            <form>
+            <label for="username"><b>Username</b></label><br>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+        
+            <label for="email"><b>Email</b></label><br>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label><br>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label><br>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+            <button button-button type="submit" class="signupbtn">Sign Up</button>
+            </form>
+            </div>
+    
+      <div class="login-sec">
+            <h3>Login</h3>
+            <form>
+            <label><b>username</b></label>
+            <input type="text" placeholder="Enter Email" id="username" name="username" required>
+        
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="password" name="psw" required>
+            <input type="button" onclick="login()" value="Login"  class="button-button">
+            </form>
+
+       <p></p>
+      </div>
+    </div>
+    </div>
+    <!--
+    <footer>
+        Copyright &copy;Send-it
+    </footer>
+    -->
+    <script src="UI/assets/js/main.js"></script>
+</body>
+</html>
