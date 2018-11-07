@@ -35,12 +35,14 @@
       <div class="login-sec">
             <h3>Login</h3>
             <form>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <label><b>username</b></label>
+            <input type="text" placeholder="Enter Email" id="username" name="username" required>
         
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="password" name="psw" required>
+            <input type="button" onclick="login()" value="Login"  class="button-button">
             </form>
+
        <p></p>
       </div>
     </div>
@@ -48,5 +50,6 @@
     <footer>
         Copyright &copy;Send-it
     </footer>
+    <script src="UI/assets/js/main.js"></script>
 </body>
 </html>
