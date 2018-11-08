@@ -98,7 +98,7 @@ footer{
 }
 .login-sec form input[type = "text"], .login-sec form input[type = "password"]{
     margin: 0px 0px 10px 0px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     width: 50%;
     
 }
@@ -119,5 +119,40 @@ footer{
     border: none;
     margin:0px 0px 10px 0px;
     padding: 10px 15px;
+}
+.main-content .profile-info{
+    float: left;
+    width: 25%;
+}
+.main-content .profile-info img{
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    border: 1.5px solid silver;
+}
+tr:nth-child(even) {background-color: rgb(51, 168, 51);}
+.lft{
+    text-align: left;
+}
+.ctr{
+    text-align: center;
+}
+.rgt{
+    text-align: right;
+}
+.main-content .personal-parcels{
+    float: left;
+    width: 72%;
+    margin-left: 25px;
+}
+#msg{
+
+    text-align: center;
+    color: red;
+}
+.textarea{
+    width: 84%;
+    height: 100px;
 }
 
