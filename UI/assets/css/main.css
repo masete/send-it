@@ -156,3 +156,39 @@ tr:nth-child(even) {background-color: rgb(51, 168, 51);}
     height: 100px;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.active, .btn:hover {
+    background-color:red;
+    color: white;
+  }
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
