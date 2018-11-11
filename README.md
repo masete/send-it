@@ -29,6 +29,6 @@ ALL THE WORK IS IN THE DEVELOP BRANCH
 
 Get the whole project from here https://github.com/masete/send-it/edit/develop
                                                                                                                               You can review it from my github pages :https://masete.github.io/send-it/
-     ## Author
+## Author
      
      @masete nicholas
