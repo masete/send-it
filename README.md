@@ -28,4 +28,7 @@ ALL THE WORK IS IN THE DEVELOP BRANCH
 * Password : 12345
 
 Get the whole project from here https://github.com/masete/send-it/edit/develop
- You can review it from my github pages :
+                                                                                                                              You can review it from my github pages :https://masete.github.io/send-it/
+     ## Author
+     
+     @masete nicholas
