@@ -21,26 +21,48 @@
     </header>
     <div class="main-content">
         <div class="main-content-center">
-
-        <form>
-            <label>From</label><br>
-            <input type="text" placeholder="current position of parcel" name="from"/><br>
-            <label>Destination</label>
-            <input type="text" placeholder="Delivery place" name="to"/><br>
-            <label>Weight</label><br>
-            <input type="text" placeholder="Weight in kgs" name="from"/><br>
-            <label>Description</label><br>
-            <textarea class="textarea"></textarea><br>
-            <button>create parcel</button>
-        </form>
-        </div>
-
-        </div>>
-       
+            <form>
+                <div class="row">
+                <div class="cancel-labels">
+                    <label for="fname">Pickup Location</label>
+                </div>
+                <div class="cancel-fields">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                </div>
+                <div class="row">
+                <div class="cancel-labels">
+                    <label for="lname">Destination</label>
+                </div>
+                <div class="cancel-fields">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                </div>
+                <div class="row">
+                <div class="cancel-labels">
+                    <label for="country">Weight</label>
+                </div>
+                <div class="cancel-fields">
+                    <input type="text" id="lname" name="weight" placeholder="weight..">
+                </div>
+            
+                
+                </div>
+                <div class="row">
+                <div class="cancel-labels">
+                    <label for="subject">Parcel description</label>
+                </div>
+                <div class="cancel-fields">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                </div>
+                <div class="row">
+                <input type="submit" value="Submit">
+                </div>
+            </form>              
+        </div>   
     </div>
-    </div>
-
-
+    
 
     <footer>
         Copyright &copy;Send-it

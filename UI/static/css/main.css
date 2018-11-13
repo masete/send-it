@@ -80,6 +80,7 @@ footer{
     margin-left: 3.5%;
     padding: 15px;
     overflow: auto;
+    background-color: darkgrey;
 }
 .main-content .signup-sec{
     width: 49%;
@@ -103,12 +104,21 @@ footer{
     width: 50%;
     
 }
-.signup-sec form input[type = "text"], .signup-sec form input[type = "password"]{
-    margin: 0px 0px 0px 0px;
-    padding: 5px 5px;
-    width: 80%;
+input[type=text] {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
     
 }
+    
+
 .login-sec form p{
     margin:10px 0px 10px 0px;
 }
@@ -193,10 +203,9 @@ td, th {
     background-color: #4CAF50;
     color: white;
 }
-.main-content-center{
-    align-content: center;
+.main-content .main-content-center{
     width: 60%;
-    padding: 20px, 20px;
+    margin: auto;
 }
 
 
@@ -234,7 +243,7 @@ td, th {
     flex-grow: 1;
     flex-basis: 16%;
   
-    display: flex; /* so child elements can use flexbox stuff too! */
+    display: flex;
 }
 .parcel-card {
     flex: 1 16%;
@@ -247,9 +256,60 @@ td, th {
       flex: 1 21%;
     }
   }
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .parcel-filter {
       flex-direction: column;
     }
   
+}
+
+
+
+textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.cancel-labels {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.cancel-fields {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .cancel-labels, .cancel-fields, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
