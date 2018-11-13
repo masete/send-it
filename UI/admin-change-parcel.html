@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>Change destination</title>
-    <link rel="stylesheet" type="text/css" href="../UI/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../UI/static/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <img src="../UI/assets/images/parcel2.jpeg" class="index-img">
+    <img src="../UI/static/images/parcel2.jpeg" class="index-img">
     <header>
-        <li><p class="logo"><img src="assets/images/logo.png"/></p></li>
+        <li><p class="logo"><img src="static/images/logo.png"/></p></li>
     <ul>
         <li></li><a href="../index-page.html">Logout</a></li>
         <li></li><a class="active" href="admin-change-parcel.html">Change status</a></li>
@@ -16,31 +16,21 @@
      </ul>
     </header>
     <div class="main-content">
-        <table width='100%'>
-            <thead>
-                <tr>
-                    <th style="text-align:left;">From</th>
-                    <th style="text-align:left;">Destination</th>
-                    <th style="text-align:left;">Weight</th>
-                    <th style="text-align:right;">change</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><input type="text" name="from" placeholder="enter pickup area"/></td>
-                    <td><input type="text" name="destination" placeholder="enter destination point"/></td>
-                    <td><input type="text" name="weight" placeholder="enter weight"></td>
-                    <td style="overflow: auto;"><input type="submit" style="float:right;" name="change" value="change"/></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    </div>
-
-
-
-    <footer>
-        Copyright &copy;Send-it
-    </footer>
+            <form>
+                <label>Pickup location</label>
+                <input type="text" placeholder="current position of parcel" name="from"/>
+                <label>Destination</label>
+                <input type="text" placeholder="Delivery place" name="to"/>
+                <label>Weight</label>
+                <input type="text" placeholder="Weight in kgs" name="from"/>
+            </form><br>
+            <div class="row">
+                    <input type="submit" value="Submit">
+            </div>
+        </div>
+        </div>
+        <footer>
+            Copyright &copy;Send-it
+        </footer>
 </body>
 </html>    
