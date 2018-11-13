@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    padding: 0;
+    padding:10px;
+    padding-bottom:60px;
     background-color: #efefef;
 }
 img.index-img{
@@ -16,7 +17,7 @@ header{
     width: 100%;
     left:0px;
     top:0px;
-    padding: 10px 0px;
+    padding: 10px;
     z-index: 2;
     overflow: auto;
     background: rgba(0, 0, 0, 0.7);
@@ -56,14 +57,14 @@ header ul li{
 }
 footer{
     background-color:rgb(36, 35, 34);
-    position:absolute;
-    bottom: 0px;
+    position: fixed;
     padding: 5px;
     color: white;
     text-align: center;
-    width: 100%;
+    width: 99%;
     z-index: 1;
- 
+    bottom: 0;
+
 }
 
 
