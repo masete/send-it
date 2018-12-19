@@ -4,12 +4,9 @@ Andela UI pre bootcamp
 ## Features
 
 * Users
-1. Signup
-2. Login
-3. Create a parcel delivery order
-4. Get all individual parcel delivery orders
-5. Cancel parsel delivery order
-6. Change destination of parsel delivery order
+1. sign-up.
+2. sign-in 
+
 
 
 * Admin 
